@@ -1,0 +1,68 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-image:url(../img/wildwaters.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center;
+	color:white; 
+	font-family: sans-serif;
+}
+.loginbox{
+width:300px;
+height:400px;
+background:transparent;
+color: cyan;
+top:10%;
+left:30%;
+position:absolute;
+transform:translate();
+box-sizing:border-box;
+padding: 70px 30px;
+}
+.avartar
+{
+	width:300px;
+	height:300px;
+    border-radius:100%;
+	position: absolute;
+	top:5px;
+	left: calc(50%-50px);
+}
+h1
+{
+margin:0;
+padding:0, 0, 20px;
+text-align: center;
+font-size:22px;
+}
+.loginbox p
+{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 10px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+}
